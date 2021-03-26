@@ -14,7 +14,7 @@ Gui, +AlwaysOnTop
 Gui, Font, s30
 Gui, Show, w440 h40 x%xpos% y%ypos%
 Gui, Add, Button, x0 y0 w40 h40 gjoin,✔️
-Gui, Add, Button, x40 y0 w40 h40 gjump777, 🔀
+Gui, Add, Button, x40 y0 w40 h40 gshuffle, 🔀
 Gui, Add, Button, x80 y0 w40 h40 gback, ⏮
 Gui, Add, Button, x120 y0 w40 h40 gplaypause, ⏯
 Gui, Add, Button, x160 y0 w40 h40 gskip, ⏭
@@ -39,10 +39,6 @@ return
 
 
 
-jump777:
-WinActivate #vexera-commands - Discord
-Send, {+}jump 777 {Enter}
-return
 
 join:
 WinActivate #vexera-commands - Discord
