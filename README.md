@@ -1,2 +1,1 @@
-Vexera.ahk 
-the simple gui to control Vexera bot on discord
+Vexera.ahk - simple gui to control Vexera bot on discord
