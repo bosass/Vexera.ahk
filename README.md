@@ -12,5 +12,5 @@ Download and run Vexera3.0.ahk</br>
 Add Vexera to your Discord server(or change the prefix and channel name to use with your bot).</br>
 In Discord make a channel named vexera-commands.</br>
 In that channel press Num+.</br>
-![Capture35](https://user-images.githubusercontent.com/81105398/112683516-f5219700-8e71-11eb-933e-0729f299d0fa.PNG)
+![Capture35](https://user-images.githubusercontent.com/81105398/112683516-f5219700-8e71-11eb-933e-0729f299d0fa.PNG)</br>
 If you want to get in contact with me add me on Discord Sas#9382
