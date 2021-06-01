@@ -41,17 +41,17 @@ return
 
 
 join:
-WinActivate #vexera-commands - Discord
+WinActivate vexera-commands - Discord
 Send, {+}join {Enter}
 return
 
 shuffle:
-WinActivate #vexera-commands - Discord
+WinActivate vexera-commands - Discord
 Send, {+}shuffle {Enter}
 return
 
 queue:
-WinActivate #vexera-commands - Discord
+WinActivate vexera-commands - Discord
 GuiControlGet, q
 if (q == 0)
 Send, {+}queue{Enter}
@@ -60,23 +60,23 @@ Send, {+}queue %q%{Enter}
 return
 
 back:
-WinActivate #vexera-commands - Discord
+WinActivate vexera-commands - Discord
 Send, {+}back {Enter}
 return
 
 skip:
-WinActivate #vexera-commands - Discord
+WinActivate vexera-commands - Discord
 Send, {+}skip {Enter}
 return
 
 jump:
-WinActivate #vexera-commands - Discord
+WinActivate vexera-commands - Discord
 GuiControlGet, j
 Send, {+}jump %j%{Enter}
 return
 
 playpause:
-WinActivate #vexera-commands - Discord
+WinActivate vexera-commands - Discord
 
 	if(i == 1)
 {
@@ -92,22 +92,22 @@ WinActivate #vexera-commands - Discord
 return
 
 np:
-WinActivate #vexera-commands - Discord
+WinActivate vexera-commands - Discord
 Send, {+}np{Enter}
 return
 
 stop:
-WinActivate #vexera-commands - Discord
+WinActivate vexera-commands - Discord
 Send, {+}stop{Enter}
 return
 
 o:
-WinActivate #vexera-commands - Discord
+WinActivate vexera-commands - Discord
 Send, {+}jump 1{Enter}
 return
 
 r:
-WinActivate #vexera-commands - Discord 
+WinActivate vexera-commands - Discord 
 Random, rand, 1, 1000
 Send, {+}jump %rand%{Enter}
 return
